@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Intership\\Fpt\\EF_MVC_Project\\EF_MVC_Project.csproj": {}
+    "C:\\Users\\metaron\\Desktop\\New folder\\FPT\\EF_MVC_Project.csproj": {}
   },
   "projects": {
-    "D:\\Intership\\Fpt\\EF_MVC_Project\\EF_MVC_Project.csproj": {
+    "C:\\Users\\metaron\\Desktop\\New folder\\FPT\\EF_MVC_Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Intership\\Fpt\\EF_MVC_Project\\EF_MVC_Project.csproj",
+        "projectUniqueName": "C:\\Users\\metaron\\Desktop\\New folder\\FPT\\EF_MVC_Project.csproj",
         "projectName": "EF_MVC_Project",
-        "projectPath": "D:\\Intership\\Fpt\\EF_MVC_Project\\EF_MVC_Project.csproj",
+        "projectPath": "C:\\Users\\metaron\\Desktop\\New folder\\FPT\\EF_MVC_Project.csproj",
         "packagesPath": "C:\\Users\\metaron\\.nuget\\packages\\",
-        "outputPath": "D:\\Intership\\Fpt\\EF_MVC_Project\\obj\\",
+        "outputPath": "C:\\Users\\metaron\\Desktop\\New folder\\FPT\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\metaron\\AppData\\Roaming\\NuGet\\NuGet.Config",

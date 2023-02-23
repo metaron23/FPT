@@ -9,133 +9,133 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EF_MVC_Project
 build_property.RootNamespace = EF_MVC_Project
-build_property.ProjectDir = D:\Intership\Fpt\EF_MVC_Project\
+build_property.ProjectDir = C:\Users\metaron\Desktop\New folder\FPT\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Intership\Fpt\EF_MVC_Project
+build_property.MSBuildProjectDirectory = C:\Users\metaron\Desktop\New folder\FPT
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/DatPhong/Create.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/DatPhong/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0UGhvbmdcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/DatPhong/Delete.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/DatPhong/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0UGhvbmdcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/DatPhong/Details.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/DatPhong/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0UGhvbmdcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/DatPhong/Edit.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/DatPhong/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0UGhvbmdcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/DatPhong/Index.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/DatPhong/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0UGhvbmdcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/Home/Index.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/Home/Privacy.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/KhachHang/Create.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/KhachHang/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/KhachHang/Delete.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/KhachHang/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/KhachHang/Details.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/KhachHang/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/KhachHang/Edit.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/KhachHang/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/KhachHang/Index.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/KhachHang/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/LoaiPhong/Create.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/LoaiPhong/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haVBob25nXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/LoaiPhong/Delete.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/LoaiPhong/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haVBob25nXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/LoaiPhong/Details.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/LoaiPhong/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haVBob25nXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/LoaiPhong/Edit.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/LoaiPhong/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haVBob25nXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/LoaiPhong/Index.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/LoaiPhong/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haVBob25nXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/Phong/Create.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/Phong/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmdcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/Phong/Details.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/Phong/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmdcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/Phong/Edit.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/Phong/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmdcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/Phong/Index.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/Phong/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmdcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/Shared/Error.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/TacVuPhong/Create.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/TacVuPhong/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFjVnVQaG9uZ1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/TacVuPhong/Delete.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/TacVuPhong/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFjVnVQaG9uZ1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/TacVuPhong/Details.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/TacVuPhong/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFjVnVQaG9uZ1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/TacVuPhong/Edit.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/TacVuPhong/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFjVnVQaG9uZ1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/TacVuPhong/Index.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/TacVuPhong/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFjVnVQaG9uZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/_ViewImports.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/_ViewStart.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Intership/Fpt/EF_MVC_Project/Views/Shared/_Layout.cshtml]
+[C:/Users/metaron/Desktop/New folder/FPT/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-xlkdm7qunv
