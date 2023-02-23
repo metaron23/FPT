@@ -1,0 +1,148 @@
+/* thuan */
+:root {
+    --MauTrang: rgb(255, 255, 255);
+    --MauDen: #333;
+    --DarkModMasterPage: rgba(33, 37, 41);
+    --DarkModMain: rgba(29, 30, 38);
+    --lineGray: rgb(203, 203, 203);
+    --blueText: rgba(115, 102, 255);
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* .nav-item {
+    width: 50px;
+}
+
+.nav-link {
+    font-size: 1.5em;
+} */
+
+#dropdownMenuButton1 {
+    height: 50px;
+    background: none !important;
+}
+
+.Name-Office {
+    margin-left: 5px;
+    display: grid;
+    grid-template-rows: 60% 40%;
+    width: 80px;
+    text-align: left;
+}
+
+.Name-Office .Name {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--lineGray);
+    pointer-events: none;
+}
+
+.Name-Office .Office {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--lineGray);
+    pointer-events: none;
+}
+
+.rounde {
+    width: 40px;
+    border-radius: 5px;
+}
+
+.vh100 {
+    height: calc(100vh - 68px);
+}
+
+.btn-toggle-nav li .lineMenuSidebar {
+    height: 2.5px;
+    width: 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    background-color: var(--MauDen);
+    transition: 0.2s;
+}
+
+.btn-toggle-nav li:hover .lineMenuSidebar {
+    width: 15px;
+}
+
+.bi-person {
+    font-size: large;
+    padding-right: 5px;
+}
+
+.sideBar {
+    position: relative;
+}
+
+.searchHeader {
+    position: relative;
+}
+
+.searchBar {
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    overflow: hidden;
+}
+
+.searchBar:focus {
+    border: none;
+    outline: none;
+}
+
+.btnSearchHeader {
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(50%);
+    right: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: var(--MauTrang);
+}
+
+.btnSearchHeader i {
+    font-size: 20px;
+}
+
+.btnSideBar {
+    position: relative;
+    border: none;
+    background-color: var(--MauDen);
+}
+
+.bi-caret-down {
+    position: absolute;
+    ;
+    right: 10px;
+    color: var(--MauTrang);
+}
+
+
+.ContentMain {
+    background-color: var(--MauTrang);
+}
+
+/* Hùng */
+.back-search {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.img-dp {
+    width: 160px;
+    object-fit: cover;
+    height: 90px;
+    border-radius: 5px;
+}
+
+.container-img-dp {
+    width: 160px;
+    height: 90px;
+    padding: 2px !important;
+}

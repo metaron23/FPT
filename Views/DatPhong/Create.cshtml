@@ -1,0 +1,53 @@
+@model EF_MVC_Project.Models.DatPhong
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Datphong</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="MaDp" class="control-label"></label>
+                <input asp-for="MaDp" class="form-control" />
+                <span asp-validation-for="MaDp" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NgayBatDau" class="control-label"></label>
+                <input asp-for="NgayBatDau" class="form-control" />
+                <span asp-validation-for="NgayBatDau" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NgayKetThuc" class="control-label"></label>
+                <input asp-for="NgayKetThuc" class="form-control" />
+                <span asp-validation-for="NgayKetThuc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SoNguoi" class="control-label"></label>
+                <input asp-for="SoNguoi" class="form-control" />
+                <span asp-validation-for="SoNguoi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Số Phòng</label>
+                <select asp-for="MaP" class="form-control" asp-items="ViewBag.MaP"></select>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Tên Khách Hàng</label>
+                <input name="TenKh" class="form-control" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

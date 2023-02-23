@@ -1,0 +1,199 @@
+@model PaginatedList<EF_MVC_Project.Models.Phong>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<body>
+    <div class="container-fluid pt-4">
+        <div class="row">
+            <div class="titleCreate col d-flex">
+                <p class="fs-4 fw-bolder">Quản Lý Phòng</p>
+                <a asp-action="Create"
+                    class="btn btn-dark btn-sm ms-auto text-center"
+                    style="height:2.5em ; width:10rem">Tạo Phòng</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <form asp-action="Index" method="get" id="form-search">
+                    <div class="form-actions no-color">
+                        <p>
+                            Tìm Kiếm: <input type="text" name="SearchString"
+                                value='@ViewData["CurrentFilter"]'
+                                id="searchInput" />
+                            <a asp-action="Index"
+                                class="back-search">Back</a>
+                        </p>
+                    </div>
+                </form>
+                <table class="table table-borderbg-light">
+                    <thead>
+                        <tr>
+                            <th scope="col">
+                                @Html.DisplayNameFor(model
+                                =>
+                                model.FirstOrDefault().MaP)
+
+                            </th>
+                            <th scope="col">
+                                @Html.DisplayNameFor(model
+                                =>
+                                model.FirstOrDefault().SoPhong)
+                            </th>
+                            <th scope="col">
+                                @Html.DisplayNameFor(model
+                                =>
+                                model.FirstOrDefault().HinhAnh)
+                            </th>
+                            <th scope="col">
+                                @Html.DisplayNameFor(model
+                                =>
+                                model.FirstOrDefault().TrangThaiPhong)
+                            </th>
+                            <th scope="col">
+                                @Html.DisplayNameFor(model
+                                =>
+                                model.FirstOrDefault().MaLpNavigation)
+                            </th>
+                            <th scope="col">
+                                @Html.DisplayNameFor(model
+                                =>
+                                model.FirstOrDefault().MaTvpNavigation)
+                            </th>
+                            <th scope="col">
+                                @Html.DisplayNameFor(model
+                                =>
+                                model.FirstOrDefault().MoTa)
+                            </th>
+                            <th>
+                                Công Cụ
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem
+                                => item.MaP)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem
+                                => item.SoPhong)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem
+                                => item.HinhAnh)
+                                </td>
+                                <td>
+                                    @if
+                                   (item.TrangThaiPhong == 1)
+                                    {
+                                        <div class="badge bg-success p-2 text-wrap"
+                                            style="width: 6rem;">
+                                            Đang Rảnh
+                                        </div>
+                                    }
+                                    else if (item.TrangThaiPhong == 2)
+                                    {
+                                        <div class="badge bg-warning p-2 text-wrap"
+                                            style="width: 6rem;">
+                                            Đang Bận
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        <div class="badge bg-danger p-2 text-wrap"
+                                            style="width: 6rem;">
+                                            Đã Đặt
+                                        </div>
+                                    }
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem
+                                => item.MaLpNavigation.TenLp)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem
+                                => item.MaTvpNavigation.TenTvp)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem
+                                => item.MoTa)
+                                </td>
+                                <td>
+                                    <a asp-action="Edit"
+                                    asp-route-id="@item.Id"><i
+                                            class="bi bi-pencil-square"></i></a>
+                                    |
+                                    <a asp-action="Details"
+                                    asp-route-id="@item.Id"><i
+                                            class="bi bi-eye-fill"></i></a>
+                                    |
+                                    <a href="#" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal"
+                                        data-id="@item.Id"
+                                        class="delete-phong"><i
+                                            class="bi bi-archive-fill"></i></a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <!-- Modal -->
+                <form asp-action="Delete" method="post">
+                    <div class="modal fade" id="exampleModal" tabindex="-1"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Xoá Phòng</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Bạn có chắc chắn xoá không?</p>
+                                    <input type="text" id="id-delete" hidden name="id">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <input type="submit" value="Xoá" class="btn btn-danger"
+                                        id="delete-phong" data-bs-dismiss="modal"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel"
+            aria-labelledby="home-tab">
+            <br />
+            @{
+                var prevDisabled = !Model.HasPreviousPage ?
+                "disabled" : "";
+                var nextDisabled = !Model.HasNextPage ?
+                "disabled" : "";
+            }
+            <a asp-action="Index"
+                asp-route-sortOrder='@ViewData["CurrentSort"]'
+                asp-route-pageNumber="@(Model.PageIndex - 1)"
+                asp-route-currentFilter='@ViewData["CurrentFilter"]'
+                class="btn btn-default @prevDisabled">
+                Previous
+            </a>
+            <a asp-action="Index"
+                asp-route-sortOrder='@ViewData["CurrentSort"]'
+                asp-route-pageNumber="@(Model.PageIndex + 1)"
+                asp-route-currentFilter='@ViewData["CurrentFilter"]'
+                class="btn btn-default @nextDisabled">
+                Next
+            </a>
+        </div>
+    </div>
+</body>

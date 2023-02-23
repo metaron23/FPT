@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
+        <link rel="stylesheet"
+            href="~/lib/bootstrap-5.0.2/css/bootstrap.min.css" />
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+        <title>@ViewData["title"]</title>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="sideBar container-fluid">
+                <div class="col-6">
+                    <img src="~/images/Mercedes-Benz.png" class="rounde m-1 " alt="...">
+                    <a class="navbar-brand align-baseline text-light" href="~/Home/TrangChu">Mercedes
+                        Benz</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse col-6" id="navbarSupportedContent">
+                    <div class="searchHeader d-flex col-6 ms-auto">
+                        <input class="searchBar" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btnSearchHeader" type="submit"><i class="bi bi-search"></i></button>
+                    </div>
+                    <ul class="navbar-nav ms-auto mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link bi bi-moon-stars-fill text-light" href="#"
+                                id="lightMode"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link bi bi-bell-fill text-light" href="#"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link bi bi-heart-fill text-light" href="#"></a>
+                        </li>
+                        <div class="dropdown">
+                            <button class="btn" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <div class="d-flex">
+                                    <img src="~/images/User.jpg" class="rounde" alt="...">
+                                    <div class="Name-Office">
+                                        <span class="Name">Hùng SST</span> <!--Tên account-->
+                                        <span class="Office">Admin <i class="bi
+                                                bi-chevron-down"></i></span> <!--Chức Vụ-->
+                                    </div>
+                                </div>
+                            </button>
+                            <ul class="dropdown-menu bg-dark">
+                                <li><a class="dropdown-item text-light" href="#">Account</a></li>
+                                <li><a class="dropdown-item text-light" href="#">Inbox</a></li>
+                                <li><a class="dropdown-item text-light" href="#">Setting</a></li>
+                                <li><a class="dropdown-item text-light" href="#">Log out</a></li>
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="SidebarContent container-fluid bg-dark">
+            <div class="row">
+                <div class="Sidebar col-2 bg-dark vh100">
+                    <div class="flex-shrink-0 p-1 mt-3 bg-dark">
+                        <ul class="list-unstyled ps-0">
+                            <li class="mb-1">
+                                <button class="btnSideBar btn-toggle col-12 rounded collapsed
+                                    text-start text-light " data-bs-toggle="collapse"
+                                    data-bs-target="#account-collapse" aria-expanded="false">
+                                    <i class="bi bi-person"></i>
+                                    Nhân Viên
+                                    <i class="bi bi-caret-down"></i>
+                                </button>
+                                <div class="collapse" id="account-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 lg m-3">
+                                        <li><button href="#" class="btn btn-toggle col-12 rounded
+                                                collapsed p-1 text-start text-light">Create User</button></li>
+                                        <li><button href="#" class="btn btn-toggle col-12 rounded
+                                                collapsed p-1 text-start text-light">Delete User</button></li>
+                                        <li><button href="#" class="btn btn-toggle col-12 rounded
+                                                collapsed p-1 text-start text-light">Update User</button></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex-shrink-0 p-1 bg-dark">
+                        <ul class="list-unstyled ps-0">
+                            <li class="mb-1">
+                                <button class="btnSideBar btn-toggle col-12 rounded collapsed
+                                    text-start text-light " data-bs-toggle="collapse"
+                                    data-bs-target="#account-collapse1" aria-expanded="false">
+                                    <i class="bi bi-person"></i>
+                                    Nhân Viên
+                                    <i class="bi bi-caret-down"></i>
+                                </button>
+                                <div class="collapse" id="account-collapse1">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 lg m-3">
+                                        <li><button href="#" class="btn btn-toggle col-12 rounded
+                                                collapsed p-1 text-start text-light">Create User</button></li>
+                                        <li><button href="#" class="btn btn-toggle col-12 rounded
+                                                collapsed p-1 text-start text-light">Delete User</button></li>
+                                        <li><button href="#" class="btn btn-toggle col-12 rounded
+                                                collapsed p-1 text-start text-light">Update User</button></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ContentMain col-10 ">
+                @RenderBody()
+                </div>
+            </div>
+        </div>
+        <script src="~/wwwroot/js/site.js"></script>
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap-5.0.2/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    </body>
+</html>
